@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "class5.h"
+#include "header_for_5_lab.h"
 using namespace std;
 
 
@@ -13,20 +13,20 @@ int main()
     Flower peonies = Flower("Peonies", 24, "average", "pink", 10, 13, 50);
     
     FlowerShop fw;
-    fw.additionalFlower(rose);
-    fw.additionalFlower(romashka);
-    fw.additionalFlower(yellow_rose);
-    fw.additionalFlower(peonies);
-    //fw.deleteFlower(3);
+    fw.AdditionalFlower(rose);
+    fw.AdditionalFlower(romashka);
+    fw.AdditionalFlower(yellow_rose);
+    fw.AdditionalFlower(peonies);
+    //fw.DeleteFlower(3);
     cout << "_________________________" << endl;
     
-    fw.displayTop(); 
+    fw.DisplayTop(); 
     cout << "_________________________" << endl;
     
 
     Bouquet bouquet;
-    bouquet.addFlower(rose, 3);
-    bouquet.addFlower(romashka, 3);
-    cout << "Bouquet value " << bouquet.calcSum() << endl;
+    bouquet.AddFlower(rose, 3);
+    bouquet.AddFlower(romashka, 3);
+    cout << "Bouquet value " << bouquet.CalcSum() << endl;
     cout << "_________________________" << endl;
 }
