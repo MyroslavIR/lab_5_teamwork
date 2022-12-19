@@ -17,10 +17,11 @@ int main()
     fw.AdditionalFlower(romashka);
     fw.AdditionalFlower(yellow_rose);
     fw.AdditionalFlower(peonies);
-    //fw.DeleteFlower(3);
+
+    fw.DeleteFlower(2);
     cout << "_________________________" << endl;
     
-    fw.DisplayTop(); 
+    fw.DisplayTop(4); 
     cout << "_________________________" << endl;
     
 
