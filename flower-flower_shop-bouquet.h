@@ -63,7 +63,7 @@ public:
         assortment.push_back(flow);
     }
     void DeleteFlower(int index) {
-        assortment.erase(assortment.begin() + index);
+        assortment.erase(assortment.begin() + index - 1);
     }
 };
 
