@@ -12,16 +12,16 @@ int main()
     Flower yellow_rose = Flower("Yellow Rose", 20, "average", "yellow", 32, 13, 50);
     Flower peonies = Flower("Peonies", 24, "average", "pink", 10, 13, 50);
     
-    FlowerShop fw;
-    fw.AdditionalFlower(rose);
-    fw.AdditionalFlower(romashka);
-    fw.AdditionalFlower(yellow_rose);
-    fw.AdditionalFlower(peonies);
+    FlowerShop bloom;
+    bloom.AdditionalFlower(rose);
+    bloom.AdditionalFlower(romashka);
+    bloom.AdditionalFlower(yellow_rose);
+    bloom.AdditionalFlower(peonies);
 
-    fw.DeleteFlower(2);
+    bloom.DeleteFlower(2);
     cout << "_________________________" << endl;
     
-    fw.DisplayTop(4); 
+    bloom.DisplayTop(4); 
     cout << "_________________________" << endl;
     
 
